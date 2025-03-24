@@ -48,28 +48,25 @@
     gap: 10px;
     padding: 20px;
 }
-
-
-#body {
-    display: flex;
-    width: 1122px;
-    height: 546px;
-    background-color: #ffffff;
-    flex-direction: column;
-}
-
 #bodycontent{
     display: flex;
-    align-content: center;
-    justify-content: center;
+    
+    width: 1122px;
+    height: 546px;
 
 }
+
+
+
+
 #graph{
     width: 686px;
     height: 380px;
 }
 
 #statistics{
+    width: 342px;
+    height: 546px;
     display: flex;
     flex-direction: column;
 }
