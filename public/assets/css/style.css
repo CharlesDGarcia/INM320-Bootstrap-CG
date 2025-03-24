@@ -6,6 +6,7 @@
 .col-sm-4{
     color: white !important;
     background-color: #363740;
+    height: auto;
 }
 #logo {
     position: relative;
@@ -48,25 +49,33 @@
     gap: 10px;
     padding: 20px;
 }
-#bodycontent{
+
+#Trends{
+    width: auto;
+    height: 546px;
     display: flex;
-    
-    width: 1122px;
-    height: 546px;
-
+    margin: 20px;
 }
 
-
-
-
-#graph{
-    width: 686px;
-    height: 380px;
-}
-
-#statistics{
-    width: 342px;
-    height: 546px;
+#Graph{
     display: flex;
     flex-direction: column;
+    color: #252733;
+    font-size: 19px;
+
+}
+
+#stats{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#TicketsTask {
+    width: auto;
+    height: 336px;
+    background-color: #73758f;
+    margin: 20px;
 }
