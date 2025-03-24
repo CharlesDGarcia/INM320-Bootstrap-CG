@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    
+    justify-content: center;
+}
+
+
 a{
     text-decoration: none;
 }
@@ -13,8 +20,8 @@ h1 {
 
 .wrapper {
     display: flex;
-    max-width: 1440px;
-    max-height: 1234px;
+    width: 1440px;
+    height: 1234px;
     background-color: #F7F8FC;
 
 }
@@ -68,10 +75,34 @@ a.sidebar-link{
 
 }
 .trends {
+    display: flex;
+    
     width: 1122px;
     height: 546px;
     background-color: rgb(255, 255, 255);
 
-    align-content: center;
+    
+}
+
+.body-top {
+    display: flex;
     justify-content: center;
+}
+
+.btn:hover {
+    color: #3751FF;
+    border-color: #3751FF;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-number {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+
+    color: #252733;
 }
