@@ -1,13 +1,9 @@
 .container-fluid {
     display: flex;
     background-color: #F7F8FC;
+    padding: 0px;
 }
 
-.col-sm-4{
-    color: white !important;
-    background-color: #363740;
-    height: auto;
-}
 #logo {
     position: relative;
     right: 10px;
@@ -38,23 +34,18 @@
     color: #252733;
 }
 
-#nav-header{
-    padding: 10px;
-}
-
 #tabs {
     display: flex;
     align-content: center;
     justify-content: center;
     gap: 10px;
-    padding: 20px;
 }
 
 #Trends{
     width: auto;
     height: 546px;
     display: flex;
-    margin: 20px;
+    
 }
 
 #Graph{
@@ -76,6 +67,24 @@
 #TicketsTask {
     width: auto;
     height: 336px;
-    background-color: #73758f;
-    margin: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#tickets {
+    width: 546px;
+    height: 336px;
+
+    
+    
+}
+
+#tasks {
+    width: 546px;
+    height: 336px;
+}
+
+.ticketList{
+    font-size: 14px;
 }
